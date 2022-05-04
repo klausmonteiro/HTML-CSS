@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-classe
+        :: = pseudo-elemnt 
+        > children */
+        body {
+            
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        a:visited {
+            color: darkgrey;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: rgb(64, 226, 43);
+        }
+        h1:hover {
+            color: gold;
+        }
+        a:active {
+            color: cornflowerblue;
+        }
+        a::before {
+            content: '👉';
+        }
+        a:after{
+            content: '👈';
+            text-decoration: none;
+            color: yellow;
+            font-weight: bold;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="black">Reposiótio Github</a>
+        </li>
+        <li><a href="https://youtu.be/vMlrcOVr7po" target="black">Canal do Youtoba</a></li>
+        <li><a href="https://roadmap.sh/frontend" target="black">RoadMap</a></li>           
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(8, 20, 37);
+}
+h1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+p {
+    text-align: center;
+}
+
