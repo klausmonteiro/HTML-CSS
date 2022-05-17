@@ -1,0 +1,12 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+div {
+    width: 30px;
+    height: 30px;
+    background-image: url(imagens/wallpaper006.jpg) bottom center ;
+    background-position: bottom center;
+
+}
