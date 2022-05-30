@@ -58,15 +58,17 @@
  main:hover {
     background-color: rgba(255, 255, 255, 0.418);
     width: 900px;
+    max-width: 75vw;
     padding: 30px ;
-    margin-top: 18vh;
-    margin-left: 40px;
+    margin-top: 20vh;
+    margin-left: 10px;
+    font-size: 1.5vw;
+    line-height: 1.7em;
+    font-family: 'Secular One', sans-serif;
+    font-variant: small-caps;
+    text-align:justify ;
     border-radius: 20px;
     transition: 0.8s;
-    cursor: pointer;
-    font-weight:bold ;
-    text-align:justify ;
-    max-width: 75vw;
  }
 
  
