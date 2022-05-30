@@ -1,0 +1,70 @@
+@charset "UTF-8";
+ *{
+     margin: 0px;
+     padding: 0px;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+ body {
+     height: 100vh;
+     background-color: darkgray;
+     background-image: url(imagens/lion-day1.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     
+     
+ }
+ header {
+     background-color: rgba(153, 153, 153, 0.589);
+     color: white;
+     font-family: 'Chakra Petch', sans-serif;
+     font-weight: bold;
+ 
+ }
+ header > h1 {
+    padding-top: 30px;
+    padding-left: 40px;
+    font-variant: small-caps;
+    font-size: 5vw;
+ }
+ header > p {
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+ }
+ 
+ 
+ main  {
+     background-color: rgba(255, 255, 255, 0.178);
+     width: 900px;
+     max-width: 75vw;
+     padding: 30px ;
+     margin-top: 80px;
+     margin-left: 40px;
+     font-size: 1.5vw;
+     line-height: 1.7em;
+     font-family: 'Secular One', sans-serif;
+     font-variant: small-caps;
+     text-align:justify ;
+ }
+ a {
+    text-decoration: none;
+    color: black;
+ }
+ main:hover {
+    background-color: rgba(255, 255, 255, 0.418);
+    width: 900px;
+    padding: 30px ;
+    margin-top: 75px;
+    margin-left: 40px;
+    border-radius: 20px;
+    transition: 0.8s;
+    cursor: pointer;
+    font-weight:bold ;
+    text-align:justify ;
+    max-width: 75vw;
+ }
+
+ 
