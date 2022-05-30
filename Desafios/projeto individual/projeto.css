@@ -18,6 +18,7 @@
      
  }
  header {
+     width: auto;
      background-color: rgba(153, 153, 153, 0.589);
      color: white;
      font-family: 'Chakra Petch', sans-serif;
@@ -43,7 +44,7 @@
      max-width: 75vw;
      padding: 30px ;
      margin-top: 20vh;
-     margin-left: 40px;
+     margin-left: 10px;
      font-size: 1.5vw;
      line-height: 1.7em;
      font-family: 'Secular One', sans-serif;
